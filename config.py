@@ -17,7 +17,7 @@ ALIVE_PIC = getenv("ALIVE_PIC")
 ALIVE_TEXT = getenv("ALIVE_TEXT")
 PM_LOGGER = getenv("PM_LOGGER","687154450")
 LOG_GROUP = getenv("LOG_GROUP","687154450")
-GIT_TOKEN = getenv("GIT_TOKEN","") #personal access token
+GIT_TOKEN = getenv("GIT_TOKEN","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") #personal access token
 REPO_URL = getenv("REPO_URL", "https://github.com/ITZ-ZAID/ZAID-USERBOT")
 BRANCH = getenv("BRANCH", "master") #don't change
  
