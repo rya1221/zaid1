@@ -11,7 +11,7 @@ API_HASH = getenv("API_HASH", "aa2886eda514d8beaa98695cfe3060ff") #optional
 
 SUDO_USERS = list(map(int, getenv("SUDO_USERS", "5945209516").split()))
 OWNER_ID = int(getenv("OWNER_ID","5945209516"))
-MONGO_URL = getenv("MONGO_URL","mongodb://aryauserbot:aryauserbot@cluster0-shard-00-00.w6kd5.mongodb.net:27017,cluster0-shard-00-01.w6kd5.mongodb.net:27017,cluster0-shard-00-02.w6kd5.mongodb.net:27017/?ssl=true&replicaSet=atlas-rjm594-shard-0&authSource=admin&retryWrites=true&w=majority")
+MONGO_URL = getenv("MONGO_URL","mongodb+srv://arya:arya@cluster0.obexfyj.mongodb.net/?retryWrites=true&w=majority")
 BOT_TOKEN = getenv("BOT_TOKEN", "5818606596:AAHwH17M5L3SSX_XxSAZ2OXxxrPk2M3gjvg")
 ALIVE_PIC = getenv("ALIVE_PIC")
 ALIVE_TEXT = getenv("ALIVE_TEXT")
